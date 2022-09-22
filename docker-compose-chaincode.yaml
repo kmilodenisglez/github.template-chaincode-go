@@ -1,0 +1,19 @@
+version: "3.6"
+
+networks:
+    docker_test:
+        external: true
+
+services:
+    cc-template-go.org1.example.com:
+        build: .
+        container_name: cc-template-go.org1.example.com
+        hostname: cc-template-go.org1.example.com
+        volumes:
+            - ./crypto:/crypto
+        env_file:
+            - chaincode.env
+        networks:
+            docker_test:
+        expose:
+            - 9999
