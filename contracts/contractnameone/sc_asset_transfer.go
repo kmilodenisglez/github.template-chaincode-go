@@ -1,8 +1,9 @@
-package chaincode
+package contractnameone
 
 import (
-	"encoding/json"
 	"fmt"
+
+	"encoding/json"
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
 )
 

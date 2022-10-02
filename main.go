@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
-	"github.com/kmilodenisglez/github.template-chaincode.go /chaincode"
+	"github.com/kmilodenisglez/github.template-chaincode.go/contracts/contractnameone"
 	"io/ioutil"
 	"log"
 	"os"
@@ -22,7 +22,7 @@ func main() {
 		Address: os.Getenv("CHAINCODE_SERVER_ADDRESS"),
 	}
 
-	assetChaincode, err := contractapi.NewChaincode(&chaincode.SmartContract{})
+	assetChaincode, err := contractapi.NewChaincode(&contractnameone.SmartContract{})
 
 	if err != nil {
 		log.Panicf("error create asset-transfer-basic chaincode: %s", err)
