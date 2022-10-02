@@ -1,4 +1,4 @@
-module github.com/ kmilodenisglez/github.template-chaincode.go
+module github.com/kmilodenisglez/github.template-chaincode.go
 
 go 1.16
 
