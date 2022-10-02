@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
-	"github.com/ic-matcom/cc-template-go/chaincode"
+	"github.com/ kmilodenisglez/github.template-chaincode.go /chaincode"
 	"io/ioutil"
 	"log"
 	"os"

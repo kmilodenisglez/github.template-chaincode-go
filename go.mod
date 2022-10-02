@@ -1,4 +1,4 @@
-module github.com/ic-matcom/cc-template-go
+module github.com/ kmilodenisglez/github.template-chaincode.go
 
 go 1.16
 
